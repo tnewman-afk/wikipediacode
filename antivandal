@@ -26,7 +26,7 @@ class AntiVandal {
 		this.aivReports = [];
 		this.uaaReports = [];
 
-		this.rollbackEnabled = mw.config.values.wgUserGroups.includes("sysop") || mw.config.values.wgUserGroups.includes("rollbacker");
+		this.rollbackEnabled = mw.config.values.wgUserGroups.includes("User") || mw.config.values.wgUserGroups.includes("rollbacker");
 		this.username = mw.config.values.wgUserName;
 		this.handleLoadingReported();
 	}
